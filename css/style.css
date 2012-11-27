@@ -1,8 +1,7 @@
 body {
   font-family: 'Nobile', sans-serif;
   color: #420600;
-  /* background: #420600 url('img/bg-texture.jpg') repeat; */
-  
+  background: #fff url('img/background.png') repeat;
 }
 
 a {
@@ -42,14 +41,24 @@ ul.nav {
 ul.nav li {
   float: left;
   margin-right: 40px;
+  border-top:1px solid #604c3f;
 }
 
 ul.nav li a {
-  color: #FAF3BC;
+  color: #420600;
+}
+
+.topbar {
+  background: url('img/topline.png') repeat;
+}
+
+#header {
+  margin-top: 10px;
 }
 
 #intro {
-  margin: 20px 0 75px 0;
+  margin: 120px 0 75px 0;
+  text-align: center;
 }
 
 #copyright {
