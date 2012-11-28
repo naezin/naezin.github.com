@@ -41,11 +41,15 @@ ul.nav {
 ul.nav li {
   float: left;
   margin-right: 40px;
-  border-top:1px solid #604c3f;
+  /*border-top:1px solid #604c3f;*/
 }
 
 ul.nav li a {
-  color: #420600;
+  color: #000;
+}
+
+ul.nav li a:hover {
+  color: #4FB69F;
 }
 
 .topbar {
@@ -62,7 +66,7 @@ ul.nav li a {
 }
 
 #copyright {
-  border-top: 8px solid #2A0400;
+  *border-top: 8px solid #2A0400;
   padding: 10px 0px;
   margin: 15px 0px;
   text-align: center;
