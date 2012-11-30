@@ -41,6 +41,7 @@ ul.nav {
 ul.nav li {
   float: left;
   margin-right: 40px;
+  padding-bottom: 20px
   /*border-top:1px solid #604c3f;*/
 }
 
@@ -56,6 +57,51 @@ ul.nav li a:hover {
   background: url('img/topline.png') repeat;
 }
 
+ul.portfolio {
+  padding-left: 0px;
+  padding-top:10px;
+}
+
+ul.portfolio li.thumnails {
+  border: 1px solid #ddd;
+  list-style: none;
+  float: left;
+  margin: 0 10px 0 0;
+  height: 312px;
+  background: #ddd;
+}
+
+ul.portfolio li.thumnails:hover {
+  border: 1px solid #000;
+}
+
+ul.portfolio li.thumnails a {
+  color: #888;
+}
+
+ul.portfolio li.thumnails a:hover {
+  border-bottom: 1px solid #888;
+}
+
+ul.portfolio li.thumnails .thum_title {
+  color:#333;
+  margin-bottom: 5px;
+  padding: 3px 5px;
+}
+
+ul.portfolio li.thumnails .thum_tag {
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+
+
+/*.thumbnail .caption {
+  padding: 9px;
+  color: #555555;
+}
+*/
+
+
 #header {
   margin-top: 10px;
 }
@@ -65,8 +111,8 @@ ul.nav li a:hover {
   text-align: center;
 }
 
-#copyright {
-  *border-top: 8px solid #2A0400;
+.copyright {
+  border-top: 1px solid #2A0400;
   padding: 10px 0px;
   margin: 15px 0px;
   text-align: center;
