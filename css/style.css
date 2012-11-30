@@ -66,7 +66,7 @@ ul.portfolio li.thumnails {
   border: 1px solid #ddd;
   list-style: none;
   float: left;
-  margin: 0 10px 0 0;
+  margin: 0 10px 10px 0;
   height: 312px;
   background: #ddd;
 }
