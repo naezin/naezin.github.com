@@ -7,11 +7,17 @@ body {
 }
 
 .topbar {
+  height: 11px;
   background: url('img/topline.png') repeat;
 }
 
 #header {
   margin-top: 10px;
+  height: 50px;
+}
+
+#header a.img {
+  border: 20px
 }
 
 img, object {
@@ -144,6 +150,7 @@ ul.portfolio li.thumnails .thum_tag {
 .border {
   background-color: #000;
   margin-bottom: 20px;
+  height:3px;
 }
 
 .project_footer span {
