@@ -1,7 +1,7 @@
 /*global*/
 
 body {
-  font-family: 'Nobile', sans-serif;
+  font-family: sans-serif;
   color: #420600;
   background: #fff url('img/background.png') repeat;
 }
@@ -112,14 +112,14 @@ ul.portfolio li.thumnails a {
 
 }
 
-ul.portfolio li.thumnails a:hover {
-  border-bottom: 1px solid #888;
-}
-
 ul.portfolio li.thumnails .thum_title {
   color:#333;
   margin-bottom: 4px;
   padding: 3px 5px;
+}
+
+ul.portfolio li.thumnails .thum_title .text {
+  font: bold 0.75em ;
 }
 
 ul.portfolio li.thumnails .thum_tag {
@@ -127,11 +127,45 @@ ul.portfolio li.thumnails .thum_tag {
   padding-left: 5px;
 }
 
+ul.portfolio li.thumnails .thum_tag .text a:hover {
+  border-bottom: 1px solid #888;
+}
+
 .copyright {
   border-top: 1px solid #2A0400;
   padding: 10px 0px;
   margin: 15px 0px;
   text-align: center;
+}
+
+/*naezin contents*/
+
+.name {
+  font: bold;
+  font-size: 1.75em;
+  letter-spacing: -2px;
+  color: #555;
+  margin: 50px 0 50px 0;
+  
+}
+
+#title{
+  border-left: 3px solid #777;
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  color: #555;
+  margin: 0 0 20px 5px;
+}
+
+#index {
+  font-size: 0.8em;
+  color:#999;
+  margin: 0 0 0 17px;
+}
+
+#contents {
+  color: #555;
+  margin: 0 0 30px 0;
 }
 
 /*works contents*/
