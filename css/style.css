@@ -91,7 +91,7 @@ ul.portfolio li.thumnails {
   border: 1px solid #ddd;
   list-style: none;
   float: left;
-  margin: 0 10px 20px 0;
+  margin: 0 13px 20px 0;
   height: 312px;
   background: #ddd;
 }
@@ -112,6 +112,7 @@ ul.portfolio li.thumnails a:hover {
 
 ul.portfolio li.thumnails .thum_title {
   color:#333;
+  border-left: 1px solid #333;
   margin-bottom: 4px;
   padding: 3px 5px;
 }
