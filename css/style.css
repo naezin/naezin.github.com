@@ -90,6 +90,7 @@ ul.nav li a:hover {
 ul.portfolio {
   padding-left: 0px;
   padding-top:10px;
+  margin: 0;
 }
 
 ul.portfolio li.thumnails {
@@ -109,13 +110,16 @@ ul.portfolio li.thumnails:hover {
 ul.portfolio li.thumnails a {
   color: #888;
   font-size: 0.9em;
-
 }
 
 ul.portfolio li.thumnails .thum_title {
   color:#333;
   margin-bottom: 4px;
   padding: 3px 5px;
+  width: 210px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space : nowrap;
 }
 
 ul.portfolio li.thumnails .thum_title .text {
@@ -216,14 +220,6 @@ ul.portfolio li.thumnails .thum_tag .text a:hover {
   margin-top: 5px;
   margin-bottom: 30px
 }
-
-
-
-
-
-
-
-
 
 
 
