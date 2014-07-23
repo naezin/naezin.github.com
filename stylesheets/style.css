@@ -188,7 +188,7 @@ ul.portfolio li.thumnails .thum_tag .text a:hover {
 /*works contents*/
 
 .project_title {
-  font-size: 1.5em;
+  font-size: 1.25em;
   margin-bottom: 5px;
   }
   
@@ -242,23 +242,25 @@ ul.portfolio li.thumnails .thum_tag .text a:hover {
 }
 
 .nav2 .border {
-  background-color: #aaa;
+  background-color: #000;
   margin-bottom: 20px;
-  height:2px;
+  height:3px;
 }
 
+
 .nav2 .headline {
-  font-size: 1.5em;
+  font-size: 1.25em;
+  margin-bottom: 5px;
 }
 
 .nav2 .headline a {
   color: #000;
 }
 
-.nav2 .headline a:hover {
+/*.nav2 .headline a:hover {
   color: #999;
 }
-
+*/
 .nav2 ul.nav_details {
   list-style: none;
   padding-left: 0;
