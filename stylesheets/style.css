@@ -1,7 +1,7 @@
 /*global*/
 
 body {
-  font-family: sans-serif;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #420600;
   background: #fff url('img/background.png') repeat;
 }
@@ -82,7 +82,7 @@ list-style-type: none;
 }
  */
 ul.nav li a {
-  color: #000;
+  color: #555;
 }
 
 ul.nav li a:hover {
@@ -124,7 +124,7 @@ ul.portfolio li.thumnails a {
 }
 
 ul.portfolio li.thumnails .thum_title {
-  color:#333;
+  color:#555;
   margin-bottom: 4px;
   padding: 10px 3px 2px 3px;
   border-top: 1px solid #999;
